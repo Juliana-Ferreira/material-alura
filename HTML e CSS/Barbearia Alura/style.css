@@ -1,15 +1,29 @@
-body {
+.titulo-header {
+    padding-left: 20px;
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal {
     background: #cccccc;
-}
-
-p {
     text-align: center;
+    padding: 30px;
 }
 
-h1 {
+.beneficios {
     text-align: center;
+    padding: 20px;
 }
 
-em strong {
-    color: red;
+.lista-beneficios {
+    font-style: italic;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10%;
+}
+
+#img-beneficios {
+    width: 50%;
 }
