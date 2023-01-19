@@ -1,3 +1,4 @@
+/* Cabeçalho do site */
 header {
     background: #bbbbbb;
     padding: 20px 0;
@@ -33,14 +34,34 @@ nav a:hover {
     text-decoration: underline;
 }
 
-#banner {
+/* Página home */
+.banner {
     width: 100%;
 }
 
-.principal {
-    background: #cccccc;
+.titulo-principal {
     text-align: center;
-    padding: 30px;
+    font-size: 2em;
+    margin-bottom: 1em;
+    clear: left;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.principal p {
+    margin-bottom: 1em;
+}
+
+.principal strong {
+    font-weight: bold;
 }
 
 .beneficios {
@@ -59,6 +80,7 @@ nav a:hover {
     width: 50%;
 }
 
+/* Página produtos */
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -104,6 +126,7 @@ nav a:hover {
     margin-top: 10px;
 }
 
+/* Página contato */
 main {
     width: 940px;
     margin: 0 auto;
@@ -163,6 +186,7 @@ td, th {
     padding: 8px 15px;
 }
 
+/* Rodapé do site */
 footer {
     text-align: center;
     background: url("IMG/bg.jpg");
