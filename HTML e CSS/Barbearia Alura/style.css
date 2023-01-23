@@ -253,3 +253,42 @@ footer {
     font-size: 14px;
     margin-top: 10px;
 }
+
+/* Responsividade para mobile */
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, .tabela, form {
+        width: auto;
+        margin: 20px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .lista-beneficios, #img-beneficios {
+        width: 100%;
+    }
+
+    .produtos li {
+        width: auto;
+        display: list-item;
+        margin: 20px;
+    }
+
+    .input-padrao, .enviar {
+        width: 90%;
+    }
+
+    .enviar:hover {
+        transform: scale(0.9);
+    }
+}
