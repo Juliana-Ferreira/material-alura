@@ -32,7 +32,13 @@ body {
 .container {
     height: 100vh;
     display: grid;
+    align-items: center;
     grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+.container__caixa {
+    margin: 0 6em;
 }
 
 .container__titulo {
@@ -40,12 +46,17 @@ body {
     font-weight: 700;
 }
 
+.container__img {
+    margin: 1em 0 2em 0;
+}
+
 .container__btn {
     display: block;
     background-color: var(--botao-azul);
     border-radius: 5px;
-    padding: 1em;
     color: var(--branco-principal);
+    padding: 1em;
+    margin-bottom: 1em;
 }
 
 .btn_secundario {
