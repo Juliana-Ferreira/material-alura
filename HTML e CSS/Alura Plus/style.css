@@ -98,3 +98,54 @@ body {
     display: inline-block;
     margin-top: 1em;
 }
+
+/* Seção de dispositivos */
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 3em 0;
+}
+
+.lista__item {
+    font-size: 32px;
+}
+
+/* Rodapé */
+.rodape {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    text-align: center;
+    margin: 5em;
+}
+
+.rodape__logo {
+    display: inline-block;
+    align-self: center;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    column-gap: 1em;
+    list-style-type: none;
+}
+
+.lista__link a {
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.rodape__texto {
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
