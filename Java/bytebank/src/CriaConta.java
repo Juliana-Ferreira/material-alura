@@ -1,17 +1,16 @@
 public class CriaConta {
     public static void main(String[] args) {
 
-        Conta primeiraConta = new Conta();
-        primeiraConta.saldo = 200;
-        System.out.println(primeiraConta.saldo);
+        Conta contaOrigem = new Conta();
+        Conta contaDestino = new Conta();
 
-        primeiraConta.saldo += 100;
-        System.out.println(primeiraConta.saldo);
+        contaOrigem.deposita(220);
+        System.out.println(contaOrigem.saldo);
 
-        Conta segundaConta = primeiraConta;
-        segundaConta.saldo = 50;
+        contaOrigem.transfere(80, contaDestino);
+        System.out.println(contaDestino.saldo);
 
-        System.out.println("primeira conta tem " + primeiraConta.saldo);
-        System.out.println("segunda conta tem " + segundaConta.saldo);
+        contaOrigem.saca(45);
+        System.out.println(contaOrigem.saldo);
     }
 }
